@@ -1,14 +1,47 @@
 # My Coding Notebook 
 
 ## Table of Contents
-- [Day 1](#day-1)
-  - [Notes](#notes)
+- [ Flutter Notes](#flutter-notes)
+  - [What is Flutter?](#what-is-flutter)
   - [Practice](#practice)
-- [Day 2](#day-2)
-
+- [Key Terms and Definitions](#key-terms-and-definitions)
 [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
+## Flutter Notes
 
+### What is Flutter?
+- Definition: a framework made by google for building apps that work on web, android, and IOS - with one codebase
+- Uses the Dart programming language
+- Why is it useful?
+
+---
+
+### Key Terms and Definitions
+
+| Term             | Definition                                      | Example / Notes                          |
+|------------------|--------------------------------------------------|-------------------------------------------|
+| Widget           |  basic building block of a Flutter app. Everything is a widget.                                                |  Text, Image, Container, Column                                         |
+| MaterialApp      |  the root of the app. Sets up routes and themes.                                                | Found in main .dart                                          |
+| Scaffold         |  provides basic visual layout - like a header, body, floating button                                                |  each screen uses it                                         |
+| StatelessWidget  |  a widget that doesn't change                                                | most of the screen files                                          |
+| StatefulWidget   |  a widget that can change over time                                                | uses in myhomepage()                                          |
+| Navigator        |  manages screen transitions                                             |  Navigator .pushNamed(context, '/page2');                                         |
+| AppBar           |  top navigation bar                                                | title of each page appears here                                          |
+| Column           |  vertical layout                                                |                                           |
+| Row              |  horizontal layout                                                |                                           |
+| Container        |  wraps content with padding, margin, or color                                                |                                           |
+| Text             |  displays text                                                |                                           |
+| Image.network    |  displays images from a URL                                                |                                           |
+| Padding          |  adds space around a widget                  |                     |
+| Center           |  centers its child                  |                     |
+| Main             |  the function that runs the app                  |  found in main .dart                  |
+| Named Routes     |  predefined paths to navigate between screens    |  '/'.'/page2'.'/page3'. etc             |
+---
+
+### Layout and Design Widgets
+- How do you center a widget?
+- How do you align something to the left or right?
+- What widget adds space around content?
 
 
 
