@@ -23,22 +23,22 @@
 
 | Term             | Definition                                      | Example / Notes                          |
 |------------------|--------------------------------------------------|-------------------------------------------|
-| Widget           |  basic building block of a Flutter app. Everything is a widget.                                                |  Text, Image, Container, Column                                         |
-| MaterialApp      |  the root of the app. Sets up routes and themes.                                                | Found in main .dart                                          |
-| Scaffold         |  provides basic visual layout - like a header, body, floating button                                                |  each screen uses it                                         |
-| StatelessWidget  |  a widget that doesn't change                                                | most of the screen files                                          |
-| StatefulWidget   |  a widget that can change over time                                                | uses in myhomepage()                                          |
-| Navigator        |  manages screen transitions                                             |  Navigator .pushNamed(context, '/page2');                                         |
-| AppBar           |  top navigation bar                                                | title of each page appears here                                          |
-| Column           |  vertical layout                                                |                                           |
-| Row              |  horizontal layout                                                |                                           |
-| Container        |  wraps content with padding, margin, or color                                                |                                           |
-| Text             |  displays text                                                |                                           |
-| Image.network    |  displays images from a URL                                                |                                           |
-| Padding          |  adds space around a widget                  |                     |
-| Center           |  centers its child                  |                     |
-| Main             |  the function that runs the app                  |  found in main .dart                  |
-| Named Routes     |  predefined paths to navigate between screens    |  '/'.'/page2'.'/page3'. etc             |
+| Widget           |  basic building block of a Flutter app. Everything is a widget. |  Text, Image, Container, Column |
+| MaterialApp      |  the root of the app. Sets up routes and themes. | Found in main .dart |
+| Scaffold         |  provides basic visual layout - like a header, body, floating button |  each screen uses it |
+| StatelessWidget  |  a widget that doesn't change | most of the screen files |
+| StatefulWidget   |  a widget that can change over time | uses in myhomepage() |
+| Navigator        |  manages screen transitions |  Navigator .pushNamed(context, '/page2'); |
+| AppBar           |  top navigation bar | title of each page appears here |
+| Column           |  vertical layout |       |
+| Row              |  horizontal layout |      |
+| Container        |  wraps content with padding, margin, or color |      |
+| Text             |  displays text |      |
+| Image.network    |  displays images from a URL |     |
+| Padding          |  adds space around a widget |     |
+| Center           |  centers its child |    |
+| Main             |  the function that runs the app |  found in main .dart |
+| Named Routes     |  predefined paths to navigate between screens  |  '/'.'/page2'.'/page3'. etc |
 ---
 
 ### Layout and Design Widgets
