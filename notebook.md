@@ -83,9 +83,9 @@
 
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|--------------------------|-------------------|-------------|
-| Variable | A named container used to store a value that may change. | `var x = 5;` | Age |  |
-| Constant | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
-| Data Type| The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
+| Variable | A named container used to store a value that may change. | `var x = 5;` | Age | main.dart title: 'TSA Portfolio', |
+| Constant | A fixed value that cannot change once set. | `const PI = 3.14;` |  | main.dart  const MyPortfolioApp({super.key}); |
+| Data Type| The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  | main.dart, bool, debugShowCheckedModeBanner: false, |
 | String | A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
 | Integer  | Whole number values. | `int age = 16;` |  |  |
 | Double | Number values with decimals. | `double age = 16.2;` |  |  |
